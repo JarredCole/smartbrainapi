@@ -4,6 +4,7 @@ const bcrypt = require('bcrypt-nodejs');
 const cors = require('cors');
 const knex = require('knex');
 
+const PORT = process.env.PORT;
 
 const register = require('./controllers/register');
 const signin = require('./controllers/signin');
